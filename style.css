@@ -9,6 +9,9 @@ nav{
     background-color: #ffffff;
     box-sizing: border-box;
 }
+.logo{
+    margin-left: 40px;
+}
 .nav-links{
     display:flex;
     gap:24px;
@@ -31,11 +34,11 @@ nav{
     cursor: pointer;
 }
 .banner{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),url('banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('banner.jpg');
     background-size: cover;       
     background-position: center;     /* Centers the background image */
     background-repeat: no-repeat;
-    min-height: 60vh;
+    min-height: 80vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -43,11 +46,14 @@ nav{
     color:#ffffff;
      font-family: Inter, sans-serif;
 }
-.banner-content{
+.banner-main{
     /* line-height: 1.6; */
     font-size: 4.5rem;;
     font-weight:600
    
+}
+.banner-content{
+    margin-bottom: 140px;
 }
 .picture-notes{
     text-align: center;
@@ -57,4 +63,51 @@ nav{
 #register-button{
     margin-top: 220px;
 
+}
+.speaker-section{
+    display: grid;
+    background-size: cover;
+    /* 2 columns */
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+}
+.speaker-section > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    border-color: #E5E7EB;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style:solid;
+    overflow: auto;
+}
+.speaker-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.meet-the-speakers{
+    text-align: center;
+    margin:40px;
+}
+#person-info{
+    align-self: flex-start;
+    padding: 20px;
+    line-height: 30px;
+}
+#role{
+    color:#2563EB;
+    font-weight: 550;
+}
+#name{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight:bold;
+}
+#organization{
+    color:#575757;
 }

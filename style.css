@@ -21,7 +21,8 @@ nav{
 }
 .links{
     font-family: 'Arimo', sans-serif;
-    color:#575757
+    color:#575757;
+    text-decoration: none;
 }
 .button-design{
     background-color:#1D4ED8;
@@ -64,12 +65,16 @@ nav{
     margin-top: 220px;
 
 }
+.speakers-section-head{
+    padding:0% 4%;
+    padding-bottom: 8.2%;
+    margin: 0% 4%;
+    margin-bottom:3%;
+}
 .speaker-section{
     display: grid;
     background-size: cover;
     /* 2 columns */
-    margin-left: 5%;
-    margin-right: 5%;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     
@@ -90,9 +95,13 @@ nav{
     height: auto;
     display: block;
 }
+/* here I can edit the Meet the speakers line as I want */
 .meet-the-speakers{
+    font-size: 3rem;
+    font-weight: 600;
     text-align: center;
-    margin:40px;
+    margin-top:7%;
+    margin-bottom:4.5%;
 }
 #person-info{
     align-self: flex-start;
@@ -110,4 +119,87 @@ nav{
 }
 #organization{
     color:#575757;
+}
+
+/* Pricing section */
+.pricing{
+    margin:0% 4%;
+    margin-bottom: 4%;
+    padding:0% 4.5%;
+    padding-bottom: 5%;
+}
+.price-title{
+    text-align:center;
+
+}
+#secure-spot{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 6px;
+}
+#early-bid{
+    padding: 6px;
+}
+/* price cards */
+.price-cards{
+    display: flex;
+    gap:23px;
+    justify-content: center;
+    padding:0% 6%;
+    padding-top:4%;
+    
+}
+.each-card{
+    padding: 30px;
+    border-radius: 11px;
+    border: 1px solid;
+    border-color: #E5E7EB;
+}
+#plan-title{
+    padding-bottom:24px;
+}
+hr{
+    width:250px;
+}
+#plan{
+    font-size: 13px;
+    color: #888888;
+}
+#amount{
+    font-size: 44px;
+    font-weight: bold;
+}
+.each-card ul{
+    padding-left:13px;
+    margin:20px 0;
+}
+.lists{
+    height:150px;
+}
+.each-card ul li{
+    font-size: 12px;
+    color: #333333;
+    padding-bottom:9px ;
+}
+.each-card ul li::marker{
+    color:#2563EB;
+}
+#pro-card{
+    background-color: #0D1B2A;
+}
+#pro-plan{
+    font-size: 13px;
+    font-weight: 600;
+    color: #93C5FD;
+}
+#pro-amount{
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#pro-person{
+    color:#888888;
+}
+#pro-lists ul li{
+    color: #ffffff;
 }

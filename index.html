@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+
     <!-- Navbar... -->
     <nav>
         <div class="logo"><img src="logo.png" alt=""></div>
         
         <div class="nav-links">
-            <div class="links" id="link-one">Speakers</div>
-            <div  class="links">Schedule</div>
-            <div  class="links">Tracks</div>
-            <div  class="links">Venue</div>
-            <div  class="links">Blog</div>
+            <a href="" class="links" id="link-one">Speakers</a>
+            <a href="" class="links">Schedule</a>
+            <a href="" class="links">Tracks</a>
+            <a href="" class="links">Venue</a>
+            <a href="" class="links">Blog</a>
 
         </div>
         <button class="button-design">Register Now</button>
     </nav>
+
+
     <!-- Banner Section -->
     <div class="banner">
     <!-- Have to add dark image in background -->
@@ -35,54 +39,138 @@
         
         <button class="button-design" id="register-button">Register Now</button>
     </div>
-
+    
 
     <!-- Meet the speaker Section -->
-     <div>
-        <div class="meet-the-speakers">Meet the Speakers</div>
-        <div class="speaker-section">
-            <!-- Have to add 4 cards -->
-            <div class ="speaker-details">
-                <img src="andrej.png" alt="">
-                <div id="person-info">
-                    <div id="role">AI / ML</div>
-                    <div id="name"><b>Andrej Karpathy</b></div>
-                    <div id="organization">Petraining team, Anthropic</div>
+        
+    <div>
+        <div class="speakers-section-head">
+            <div class="meet-the-speakers">Meet the Speakers</div>
+            <div class="speaker-section">
+                <!-- Have to add 4 cards -->
+                <div class ="speaker-details">
+                    <img src="andrej.png" alt="">
+                    <div id="person-info">
+                        <div id="role">AI / ML</div>
+                        <div id="name"><b>Andrej Karpathy</b></div>
+                        <div id="organization">Petraining team, Anthropic</div>
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div>
-                <img src="demis.png" alt="">
-                <div id="person-info">
-                    <div id="role">CLOUD & DEVOPS</div>
-                    <div id="name"><b>Andrej Karpathy</b></div>
-                    <div id="organization">Petraining team, Anthropic</div>
+                <div>
+                    <img src="demis.png" alt="">
+                    <div id="person-info">
+                        <div id="role">CLOUD & DEVOPS</div>
+                        <div id="name"><b>Andrej Karpathy</b></div>
+                        <div id="organization">Petraining team, Anthropic</div>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src="gary.png" alt="">
-                <div id="person-info">
-                    <div id="role">FRONTEND</div>
-                    <div id="name"><b>Gary Marcus</b></div>
-                    <div id="organization">Staff Engineer, Vercel</div>
+                <div>
+                    <img src="gary.png" alt="">
+                    <div id="person-info">
+                        <div id="role">FRONTEND</div>
+                        <div id="name"><b>Gary Marcus</b></div>
+                        <div id="organization">Staff Engineer, Vercel</div>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src="mustafa.png" alt="">
-                <div id="person-info">
-                    <div id="role">SECURITY</div>
-                    <div id="name"><b>Mustafa Suleyman</b></div>
-                    <div id="organization">CEO of Miscrosoft AI</div>
+                <div>
+                    <img src="mustafa.png" alt="">
+                    <div id="person-info">
+                        <div id="role">SECURITY</div>
+                        <div id="name"><b>Mustafa Suleyman</b></div>
+                        <div id="organization">CEO of Miscrosoft AI</div>
+                    </div>
                 </div>
             </div>
         </div>
-     </div>
-    
-    <!-- Secure your spot Section -->
-         
-    <div>
-    
     </div>
+
+    <!-- Secure your spot Section -->
+        <div>
+            <div class="pricing">
+                <!-- title -->
+                <div class="price-title">
+                    <div id="secure-spot">Secure Your Spot</div>
+                    <div id="early-bid">Early-bird pricing ends August 15, 2026.</div>
+                </div>
+                <!-- Pricing Section -->
+                
+                <div class="price-cards">
+                    <div class="each-card">
+                        <div class="standard">
+                            <div id="plan-title">
+                                <div id="plan">STANDARD</div>
+                                <div id="amount">$399</div>
+                                <div>per person</div>
+                            </div>
+                            <hr>
+                            <div class="lists">
+                                <ul>
+                                    <li>Access to all 3 conference days</li>
+                                    <li>48 curated technical talks</li>
+                                    <li>2 workshop sessions</li>
+                                    <li>Networking lunch & coffee breaks</li>
+                                    <li>Conference swag bag</li>
+                                    <li>Digital recordings (30 days)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button>Get Standard</button>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="each-card" id="pro-card">
+                        <div class="pro">
+                            <div id="plan-title">
+                                <div  id="pro-plan">PRO</div>
+                                <div id="pro-amount">$749</div>
+                                <div id="pro-person">per person</div>
+                            </div>
+                            <hr>
+                            <div class="lists" id="pro-lists">
+                                <ul>
+                                    <li>Everything in Standard</li>
+                                    <li>Unlimited workshop access</li>
+                                    <li>Speaker meet & greet</li>
+                                    <li>VIP networking dinner</li>
+                                    <li>Lifetime recording access</li>
+                                    <li>1-on-1 mentorship (30 min)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button>Get Pro</button>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="each-card">
+                        <div class="team">
+                            <div id="plan-title">
+                                <div  id="plan">TEAM</div>
+                                <div id="amount">$5,999</div>
+                                <div>up to 10 people</div>
+                            </div>
+                            <hr>
+                            <div class="lists">
+                                <ul>
+                                    <li>Everything in Pro (10 seats)</li>
+                                    <li>Dedicated team lounge access</li>
+                                    <li>Private workshop booking</li>
+                                    <li>Company logo on event page</li>
+                                    <li>Recruitment booth (1 day)</li>
+                                    <li>Priority customer support</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button>Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
     <!-- Something Missing Section -->
      <div>
 

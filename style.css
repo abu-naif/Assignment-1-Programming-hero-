@@ -140,26 +140,28 @@ nav{
 #early-bid{
     padding: 6px;
 }
-/* price cards */
-.price-cards{
-    display: flex;
+
+ .price-cards{
+    display:flex;
     gap:23px;
-    justify-content: center;
-    padding:0% 6%;
+    flex-wrap:wrap;
+    justify-content:center;
     padding-top:4%;
-    
 }
+
 .each-card{
-    padding: 30px;
-    border-radius: 11px;
-    border: 1px solid;
-    border-color: #E5E7EB;
+    flex:1 1 200px;
+    border:1px solid #E5E7EB;
+    border-radius:11px;
+    padding:30px;
 }
+
 #plan-title{
     padding-bottom:24px;
 }
+
 hr{
-    width:250px;
+    width:100%;
 }
 #plan{
     font-size: 13px;

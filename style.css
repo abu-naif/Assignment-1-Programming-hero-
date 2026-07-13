@@ -203,3 +203,52 @@ hr{
 #pro-lists ul li{
     color: #ffffff;
 }
+#team-card{
+    background-color: #F8F9FB;
+}
+.card-btn{
+    width: 100%;
+    padding:5% 0%;
+    border-radius:8px;
+    background: #fff;
+    color: #2563EB;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+    border:1px solid #2563EB;   
+}
+.card-btn:hover{
+    background: #2563EB;
+    color: white;
+}
+#pro-button{
+    background: #2563EB;
+    color:#fff
+}
+#team-button{
+    color:#0D1B2A;
+    border-color:#0D1B2A;
+}
+#team-button:hover{
+    background: #cc6039;
+    color:#fff;
+}
+/* footer-part */
+.footer-section{
+    background-color: #0D1B2A;
+    color: #675d5d;
+    padding: 40px 30px;
+    
+    display: flex;
+    font-size: 0.7rem;
+}
+.copyright{
+    margin-right: 50%;
+    margin-left: 4.8%;
+    padding-left: 0%;
+}
+.privacy{
+    margin-left: 8%;
+    margin-right: 2%;
+}
